@@ -744,8 +744,7 @@ local section = column:Section({
 section:Button({
    Text = "My Restaurant Fast Farm",
    Callback = function()
-   getgenv().fpsBoost = false
-loadstring(game:HttpGet("https://rawscripts.net/raw/My-Restaurant!-Fast-Autofarm-4610"))()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/My-Restaurant!-Fast-Autofarm-4610"))()
    end
 })
 
